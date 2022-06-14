@@ -1,0 +1,50 @@
+/*
+font-family: 'Teko', sans-serif;
+*/
+
+body {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+header {
+    background-color: gray;
+    padding: 16px 0px;
+    }
+
+header img {
+    margin-left: 20%;
+}
+header nav {
+    display: inline-block;
+    position: relative;
+    border: solid 1px red;
+    bottom: 90px;
+    margin-left: 30px;   
+}
+
+header nav ul {
+    background-color: gray;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 3px 20px;
+    display: block;
+    text-align: center;
+}
+
+header nav ul li a.activo {
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
